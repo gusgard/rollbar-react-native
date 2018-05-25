@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		9E17A2C11F699D5800262D87 /* RollbarReactNative.h in Copy Headers */ = {isa = PBXBuildFile; fileRef = B3E7B5881CC2AC0600A0062D /* RollbarReactNative.h */; };
 		B3E7B58A1CC2AC0600A0062D /* RollbarReactNative.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RollbarReactNative.m */; };
+		EC2BEBCF20B7929F00528845 /* Rollbar.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC2BEBCE20B7929F00528845 /* Rollbar.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,6 +30,7 @@
 		134814201AA4EA6300B7C361 /* libRollbarReactNative.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRollbarReactNative.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3E7B5881CC2AC0600A0062D /* RollbarReactNative.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RollbarReactNative.h; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* RollbarReactNative.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RollbarReactNative.m; sourceTree = "<group>"; };
+		EC2BEBCE20B7929F00528845 /* Rollbar.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Rollbar.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EC2BEBCF20B7929F00528845 /* Rollbar.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,6 +56,7 @@
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
+				EC2BEBCE20B7929F00528845 /* Rollbar.framework */,
 				B3E7B5881CC2AC0600A0062D /* RollbarReactNative.h */,
 				B3E7B5891CC2AC0600A0062D /* RollbarReactNative.m */,
 				134814211AA4EA7D00B7C361 /* Products */,
